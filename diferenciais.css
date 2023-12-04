@@ -1,16 +1,12 @@
-.diferenciais {
-  padding-left: 80px;
-  padding-right: 80px;
-}
-.diferenciais h1 {
-  margin-bottom: 80px;
-}
 .diferenciais-grid {
+  margin-top: 80px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   gap: 40px;
   overflow-x: auto;
+  position: relative;
 }
+
 .diferenciais-bloco {
   background-color: var(--azul);
   text-align: center;
@@ -19,7 +15,7 @@
   justify-content: center;
   align-items: center;
   position: relative;
-  min-width: 200px;
+  min-width: 290px;
 }
 
 .icon-diferenciais {
@@ -36,18 +32,29 @@
 .diferenciais-bloco p {
   margin-top: 80px;
   margin-bottom: 44px;
-  padding: 0px 20px;
+}
+.grid-seta {
+  display: grid;
+  grid-template-columns: 1fr auto;
+}
+/* Defina a animação usando @keyframes */
+@keyframes moveRightAndBack {
+  0%,
+  100% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(10px);
+  }
+}
+
+.grid-seta img {
+  animation: moveRightAndBack 1s ease-in-out infinite;
 }
 
 @media (max-width: 750px) {
-  .diferenciais {
-    padding-left: 40px;
-    padding-right: 0px;
-  }
   .diferenciais-grid {
+    margin-top: 40px;
     gap: 20px;
-  }
-  .diferenciais h1 {
-    margin-bottom: 40px;
   }
 }
