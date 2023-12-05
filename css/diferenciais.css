@@ -1,6 +1,8 @@
 .diferenciais {
   padding-left: 80px;
+  margin-bottom: 200px;
 }
+
 .diferenciais-grid {
   margin-top: 80px;
   display: grid;
@@ -42,6 +44,7 @@
 .grid-seta {
   display: grid;
   grid-template-columns: 1fr auto;
+  align-items: center;
 }
 /* Defina a animação usando @keyframes */
 @keyframes moveRightAndBack {
@@ -62,6 +65,7 @@
 @media (max-width: 750px) {
   .diferenciais {
     padding-left: 40px;
+    margin-bottom: 100px;
   }
   .diferenciais-grid:last-child {
     padding-right: 40px;
