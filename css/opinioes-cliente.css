@@ -61,10 +61,13 @@
   }
 }
 @media (max-width: 750px) {
+  .opinioes-cliente {
+    margin-bottom: 100px;
+  }
   .opinioes-cliente h1 {
     margin-bottom: 40px;
+    padding-top: 14px;
   }
-
   .texto-cliente h3 {
     margin-top: 28px;
     margin-bottom: 14px;
