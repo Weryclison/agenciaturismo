@@ -4,6 +4,7 @@
 }
 .diferenciais h1 {
   line-height: 2rem;
+  padding-top: 28px;
 }
 .diferenciais-grid {
   margin-top: 80px;
@@ -49,6 +50,7 @@
   grid-template-columns: 1fr auto;
   align-items: top;
 }
+
 /* Defina a animação usando @keyframes */
 @keyframes moveRightAndBack {
   0%,
@@ -69,6 +71,9 @@
   .diferenciais {
     padding-left: 40px;
     margin-bottom: 100px;
+  }
+  .diferenciais h1 {
+    padding-top: 14px;
   }
   .diferenciais-grid:last-child {
     padding-right: 40px;

@@ -1,0 +1,72 @@
+.opinioes-cliente {
+  margin-bottom: 200px;
+}
+.opinioes-cliente h1 {
+  padding-top: 28px;
+  line-height: 2rem;
+  margin-bottom: 80px;
+}
+.cliente-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.bloco-cliente:nth-child(1) {
+  padding-left: 19px;
+  padding-right: 19px;
+  border-right: 2px solid var(--azul);
+}
+.bloco-cliente:nth-child(2) {
+  padding-left: 19px;
+  padding-right: 19px;
+  border-right: 2px solid var(--azul);
+}
+.bloco-cliente:nth-child(3) {
+  padding-left: 19px;
+  padding-right: 19px;
+}
+.identificacao-cliente {
+  display: flex;
+  align-items: center;
+}
+.identificacao-cliente img {
+  max-width: 80px;
+  margin-right: 28px;
+}
+.texto-cliente h3 {
+  margin-top: 32px;
+  margin-bottom: 28px;
+}
+@media (max-width: 1200px) {
+  .cliente-grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+  }
+  .bloco-cliente:nth-child(1) {
+    border: none;
+  }
+  .bloco-cliente:nth-child(2) {
+    padding-left: 0px;
+    border: none;
+  }
+  .bloco-cliente:nth-child(3) {
+    display: none;
+  }
+}
+@media (max-width: 850px) {
+  .cliente-grid {
+    grid-template-columns: 1fr;
+  }
+  .bloco-cliente:nth-child(2) {
+    display: none;
+  }
+}
+@media (max-width: 750px) {
+  .opinioes-cliente h1 {
+    margin-bottom: 40px;
+  }
+
+  .texto-cliente h3 {
+    margin-top: 28px;
+    margin-bottom: 14px;
+  }
+}

@@ -6,6 +6,12 @@
   margin-left: auto;
   margin-right: auto;
 }
+.contain {
+  box-sizing: border-box;
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+}
 .botao {
   font-family: inter;
   font-weight: 600;

@@ -1,9 +1,10 @@
 .destinos-populares {
   padding-left: 80px;
-
+  margin-bottom: 200px;
   position: relative;
 }
 .destinos-populares h1 {
+  padding-top: 28px;
   line-height: 2rem;
 }
 .lista-populares {
@@ -45,9 +46,16 @@
   align-items: center;
   gap: 4px;
 }
+.destinos-populares img[src^="./imgs"] {
+  max-height: 400px;
+}
 @media (max-width: 750px) {
   .destinos-populares {
     padding-left: 40px;
+    margin-bottom: 100px;
+  }
+  .destinos-populares h1 {
+    padding-top: 14px;
   }
   .titulo-populares {
     margin-bottom: 40px;
