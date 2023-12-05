@@ -27,11 +27,13 @@
   display: flex;
   gap: 16px;
   padding-bottom: 12px;
+  align-items: center;
 }
 .rodape {
   display: flex;
   justify-content: space-between;
   padding-bottom: 20px;
+  background-color: var(--azul);
 }
 @media (max-width: 750px) {
   .footer .container {
@@ -59,5 +61,7 @@
   }
   .rodape {
     text-align: center;
+    display: grid;
+    grid-template-columns: 1fr;
   }
 }

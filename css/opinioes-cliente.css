@@ -3,7 +3,7 @@
 }
 .opinioes-cliente h1 {
   padding-top: 28px;
-  line-height: 2rem;
+  line-height: 3rem;
   margin-bottom: 80px;
 }
 .cliente-grid {
@@ -55,6 +55,9 @@
 @media (max-width: 850px) {
   .cliente-grid {
     grid-template-columns: 1fr;
+  }
+  .bloco-cliente:nth-child(1) {
+    padding-left: 0;
   }
   .bloco-cliente:nth-child(2) {
     display: none;

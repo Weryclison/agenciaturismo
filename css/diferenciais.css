@@ -2,9 +2,11 @@
   padding-left: 80px;
   margin-bottom: 200px;
 }
+#span-diferencial {
+  margin-bottom: 28px;
+}
 .diferenciais h1 {
   line-height: 2rem;
-  padding-top: 28px;
 }
 .diferenciais-grid {
   margin-top: 80px;
@@ -46,9 +48,9 @@
   margin-bottom: 44px;
 }
 .grid-seta {
-  display: grid;
-  grid-template-columns: 1fr auto;
-  align-items: top;
+  display: flex;
+  align-items: center;
+  margin-right: 40px;
 }
 
 @keyframes moveRightAndBack {
@@ -63,7 +65,7 @@
 
 .grid-seta img {
   animation: moveRightAndBack 3s ease-in-out infinite;
-  margin-right: 20px;
+  margin-left: 20px;
 }
 
 @media (max-width: 750px) {
@@ -71,9 +73,7 @@
     padding-left: 40px;
     margin-bottom: 100px;
   }
-  .diferenciais h1 {
-    padding-top: 14px;
-  }
+
   .diferenciais-grid:last-child {
     padding-right: 40px;
   }
