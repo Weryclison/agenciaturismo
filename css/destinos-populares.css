@@ -3,6 +3,9 @@
 
   position: relative;
 }
+.destinos-populares h1 {
+  line-height: 2rem;
+}
 .lista-populares {
   display: flex;
   white-space: nowrap;
@@ -55,5 +58,10 @@
   }
   .destinos-bloco:last-child {
     margin-right: 40px;
+  }
+}
+@media (max-width: 500px) {
+  .destinos-populares .local span:first-child {
+    font-size: 1rem;
   }
 }
