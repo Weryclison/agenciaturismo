@@ -70,6 +70,7 @@
   .opinioes-cliente h1 {
     margin-bottom: 40px;
     padding-top: 14px;
+    line-height: 1.5rem;
   }
   .texto-cliente h3 {
     margin-top: 28px;
