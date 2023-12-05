@@ -51,19 +51,18 @@
   align-items: top;
 }
 
-/* Defina a animação usando @keyframes */
 @keyframes moveRightAndBack {
   0%,
   100% {
     transform: translateX(0);
   }
   50% {
-    transform: translateX(10px);
+    transform: translateX(20px);
   }
 }
 
 .grid-seta img {
-  animation: moveRightAndBack 1s ease-in-out infinite;
+  animation: moveRightAndBack 3s ease-in-out infinite;
   margin-right: 20px;
 }
 

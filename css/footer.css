@@ -17,6 +17,9 @@
 .links-footer li {
   padding-bottom: 12px;
 }
+.links-footer li:hover {
+  color: var(--cor-3);
+}
 .contato-footer h4 {
   margin-bottom: 60px;
 }

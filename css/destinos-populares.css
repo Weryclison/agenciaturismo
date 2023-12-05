@@ -12,6 +12,7 @@
   white-space: nowrap;
   overflow-x: auto;
   gap: 40px;
+  margin-bottom: 20px;
 }
 .destinos-bloco:last-child {
   margin-right: 80px;
@@ -23,6 +24,7 @@
   position: relative;
   flex: 0 0 auto;
   max-width: 80vw;
+  border-radius: 8px;
 }
 .destinos-populares .avaliacao {
   display: flex;
@@ -48,6 +50,16 @@
 }
 .destinos-populares img[src^="./imgs"] {
   max-height: 400px;
+}
+.todos-populares {
+  border: 2px solid var(--azul);
+  padding: 4px 12px;
+  margin-top: 12px;
+  border-radius: 8px;
+}
+.todos-populares:hover {
+  background-color: var(--azul);
+  color: var(--cor-1);
 }
 @media (max-width: 750px) {
   .destinos-populares {
