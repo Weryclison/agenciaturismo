@@ -13,10 +13,14 @@
 </head>
 
 <body>
+  <div data-menu="overlay"></div>
+
   <header class="container header-home">
-    <nav class="nav">
+    <nav class="nav menu">
+
       <img src="./svgs/logo.svg" alt="">
-      <ul>
+      <button data-menu="button" aria-expanded="false" aria-controls="menu"></button>
+      <ul data-menu="list" id="menu">
         <li class="font-1-d cor-10"><a href="/">home</a></li>
         <li class="font-1-d cor-10"><a href="destinos.html">destinos</a></li>
         <li class="font-1-d cor-10"><a href="sobe.html">sobre</a></li>
@@ -27,7 +31,7 @@
     <div class="header-grid">
       <div class="conteudo-header">
         <p class="font-1-d cor-8">explore o Brasil e o mundo</p>
-        <h1 class="font-1-a cor-11">Viage,Sonhe, <br> Descubra,viva.</h1>
+        <h1 class="font-1-a cor-11">Viage, Sonhe, <br> Descubra, viva.</h1>
         <p class="font-1-d cor-10">Transformamos seus sonhos em jornadas inesquecíveis, guiando-o a destinos fascinantes.</p>
         <span class="font-1-d cor-12"><img src="./svgs/localizacao-icon.svg" alt="icon localização">Tubarão - SC</span>
       </div>
@@ -159,7 +163,7 @@
   </section>
   <article class="opinioes-cliente container">
     <span class="font-1-f cor-8">OPINIÕES DE NOSSOS CLIENTES</span>
-    <h1 class="font-1-b cor-11 ">Quem nos contrata,aprova</h1>
+    <h1 class="font-1-b cor-11 ">Quem nos contrata, aprova</h1>
     <div class="cliente-grid">
       <div class="bloco-cliente">
         <div class="identificacao-cliente">
@@ -222,10 +226,14 @@
 
 
   </footer>
-  <div class="rodape container">
-    <p class="font-1-d cor-2">Heitor.Todos os direitos reservados</p>
-    <p class="font-1-d cor-2">Criado por Codenand</p>
+  <div class="rodape">
+    <div class="container">
+      <p class="font-1-d cor-2">Heitor.Todos os direitos reservados</p>
+      <p class="font-1-d cor-2">Criado por Codenand</p>
+    </div>
   </div>
+
+  <script type="module" src="script.js"></script>
 </body>
 
 </html>

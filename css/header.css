@@ -44,9 +44,7 @@
     margin-bottom: 50px;
     margin-top: 32px;
   }
-  .nav li {
-    display: none;
-  }
+
   .header-grid {
     grid-template-columns: 1fr;
   }
