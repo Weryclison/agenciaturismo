@@ -1,3 +1,9 @@
+.introducao {
+  background: url(../../imgs-leve/bg-destinos.jpg);
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+}
 .destinos h1 {
   margin-bottom: 80px;
 }
