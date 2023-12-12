@@ -1,0 +1,15 @@
+.destinos h1 {
+  margin-bottom: 80px;
+}
+.destinos .destinos-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 40px;
+  margin-bottom: 100px;
+}
+
+@media (max-width: 750px) {
+  .destinos .destinos-grid {
+    grid-template-columns: 1fr;
+  }
+}

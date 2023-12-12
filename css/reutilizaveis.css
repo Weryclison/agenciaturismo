@@ -33,6 +33,28 @@
   outline: 3px solid var(--cor-12);
   outline-offset: -2px;
 }
+.introducao {
+  background: url(../../imgs-leve/bg-destinos.jpg);
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  margin-bottom: 100px;
+}
+.introducao h1 {
+  padding-top: 260px;
+}
+.introducao p {
+  padding-bottom: 260px;
+}
+
+@media (max-width: 750px) {
+  .introducao {
+    margin-bottom: 50px;
+  }
+  .introducao h1 {
+    padding-top: 200px;
+  }
+}
 @media (max-width: 750px) {
   .botao {
     padding: 8px 16px;

@@ -6,10 +6,12 @@
   grid-template-columns: 1fr 1fr;
   gap: 40px;
 }
+.header-home .nav {
+  margin-bottom: 100px;
+}
 .nav {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 100px;
 }
 .nav li {
   display: inline-block;
@@ -21,16 +23,11 @@
 }
 .conteudo-header h1 {
   margin-bottom: 32px;
-  max-width: 80vw;
-  overflow: hidden;
+  line-height: 100%;
 }
 .conteudo-header span {
   display: flex;
-  gap: 12px;
-  border: 2px solid var(--azul);
-  border-radius: 8px;
-  padding: 8px 16px;
-  max-width: fit-content;
+  gap: 4px;
   align-items: center;
 }
 @media (max-width: 1050px) {
@@ -41,8 +38,8 @@
     gap: 20px;
   }
   .nav {
-    margin-bottom: 50px;
-    margin-top: 32px;
+    margin-top: 20px;
+    margin-bottom: 20px;
   }
 
   .header-grid {

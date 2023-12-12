@@ -59,6 +59,7 @@
 
   .nav li {
     color: var(--cor-2);
-    padding: 50px 40px 0px 0px;
+    padding: 50px 40px 8px 0px;
+    border-bottom: 2px solid var(--cor-1);
   }
 }

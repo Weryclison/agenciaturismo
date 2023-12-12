@@ -28,13 +28,27 @@
   display: flex;
   align-items: center;
 }
+.identificacao-cliente p {
+  margin-right: 40px;
+}
 .identificacao-cliente img {
   max-width: 80px;
   margin-right: 28px;
 }
+.identificacao-cliente img:last-child {
+  cursor: pointer;
+  padding: 10px 20px;
+  border: 2px solid var(--azul);
+  border-radius: 20%;
+}
 .texto-cliente h3 {
   margin-top: 32px;
   margin-bottom: 28px;
+}
+.seta-cliente {
+  display: flex;
+  align-items: center;
+  gap: 40px;
 }
 @media (max-width: 1200px) {
   .cliente-grid {
@@ -70,7 +84,7 @@
   .opinioes-cliente h1 {
     margin-bottom: 40px;
     padding-top: 14px;
-    line-height: 1.5rem;
+    line-height: 100%;
   }
   .texto-cliente h3 {
     margin-top: 28px;

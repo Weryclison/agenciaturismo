@@ -1,9 +1,14 @@
 @import url(././css/global.css);
 @import url(././css/reutilizaveis.css);
 @import url(././css/tipografiaecor.css);
+
 @import url(././css/header.css);
-@import url(././css/diferenciais.css);
-@import url(././css/destinos-populares.css);
-@import url(././css/opinioes-cliente.css);
 @import url(././css/footer.css);
+
+@import url(./css/home/diferenciais.css);
+@import url(./css/home/destinos-populares.css);
+@import url(./css/home/opinioes-cliente.css);
+
+@import url(./css/destinos/destinos.css);
+
 @import url(././css/menu-mobile.css);
