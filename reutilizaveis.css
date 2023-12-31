@@ -47,10 +47,15 @@
   transition: color 0.3s, background-color 0.3s;
 }
 @media (max-width: 750px) {
-  .botao,
+  .botao {
+    padding: 8px 16px;
+    font-size: 1.25rem;
+    white-space: nowrap;
+  }
   .botao-2 {
     padding: 8px 16px;
     font-size: 1.25rem;
+    white-space: nowrap;
   }
   .container {
     padding-left: 35px;

@@ -1,0 +1,72 @@
+.populares-home-titulos {
+  margin-top: 100px;
+  text-align: center;
+  margin-bottom: 60px;
+}
+.populares-home-titulos h3 {
+  margin-bottom: 4px;
+}
+
+.caixa-local {
+  position: relative;
+  width: fit-content;
+}
+.grid-caixa-local {
+  display: grid;
+  gap: 40px;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.avaliacao {
+  display: flex;
+  gap: 4px;
+  padding: 4px 8px;
+  border: 3px solid var(--branco-0);
+  width: fit-content;
+  border-radius: 12px;
+  color: var(--branco-0);
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+.local {
+  position: absolute;
+  bottom: 12px;
+  left: 28px;
+}
+.local-exato {
+  display: flex;
+  gap: 4px;
+}
+.botao-wrapper {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: 750px) {
+  .grid-caixa-local {
+    grid-template-columns: 1fr;
+  }
+  .populares-home-titulos {
+    margin-top: 60px;
+    text-align: left;
+    margin-bottom: 40px;
+  }
+  .caixa-local {
+    display: none;
+  }
+  .caixa-local:first-child {
+    display: block;
+  }
+  .botao-wrapper {
+    justify-content: left;
+  }
+  .avaliacao {
+    top: 8px;
+    right: 8px;
+  }
+  .local {
+    bottom: 8px;
+    left: 12px;
+  }
+}
