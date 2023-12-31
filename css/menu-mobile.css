@@ -38,7 +38,7 @@
   #menu.active {
     display: block;
   }
-  .nav-links a {
+  .nav-links .botao {
     display: none;
   }
   .nav li::after {
