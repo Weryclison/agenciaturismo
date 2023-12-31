@@ -1,240 +1,43 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Heitor Viagens</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter&family=Poppins:wght@300;500;600;700&display=swap" rel="stylesheet">
-  <link rel="shortcut icon" href="svgs/favicon.svg" type="image/x-icon">
+  <link href="https://fonts.googleapis.com/css2?family=Inter&family=Poppins:wght@500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
+
+  <title>Treinador Heitor</title>
 </head>
+<!-- <div class="header-bg container">
+  <div class="menu">
+    <img src="img/logo.svg" class="logo" alt="Logo">
+    <button data-menu="button" aria-expanded="false" aria-controls="menu"><img src="./img/menu-mobile.svg" alt="menu-icon"></button>
+    <ul data-menu="list" id="menu">
+      <li class="font-1-e cor-1"><a href="#sobre">Sobre</a></li>
+      <li class="font-1-e cor-1"><a href="#diferenciais">Diferenciais</a></li>
+      <li class="font-1-e cor-1"><a href="#contato">Contato</a></li>
+    </ul>
+  </div> -->
 
 <body>
-  <div data-menu="overlay"></div>
-
-  <header class="container header-home">
-    <nav class="nav menu">
-
-      <img src="./svgs/logo.svg" alt="">
-      <button data-menu="button" aria-expanded="false" aria-controls="menu"></button>
-      <ul data-menu="list" id="menu">
-        <li class="font-1-d cor-10"><a href="/">home</a></li>
-        <li class="font-1-d cor-10"><a href="destinos.html">destinos</a></li>
-        <li class="font-1-d cor-10"><a href="sobe.html">sobre</a></li>
-        <li class="font-1-d cor-10"><a href="faq.html">faq</a></li>
-        <li class="font-1-d cor-10"><a href="contato.html">contato</a></li>
-      </ul>
+  <header>
+    <nav class="nav container">
+      <img src="./svg/logo.svg" alt="logo">
+      <div class="nav-links">
+        <button data-menu="button" aria-expanded="false" aria-controls="menu"><img src="./svg/menu-icon.svg" alt="menu-icon"></button>
+        <ul data-menu="list" id="menu">
+          <li class="font-1-c azul-1">home</li>
+          <li class="font-1-c azul-1">destinos</li>
+          <li class="font-1-c azul-1">sobre</li>
+          <li class="font-1-c azul-1">faq</li>
+        </ul>
+        <a href="contato.html" class="botao">Contato</a>
+      </div>
     </nav>
-    <div class="header-grid">
-      <div class="conteudo-header">
-        <p class="font-1-d cor-8">explore o Brasil e o mundo</p>
-        <h1 class="font-1-a cor-11">Viage, Sonhe, <br> Descubra, viva.</h1>
-        <p class="font-1-d cor-10">Transformamos seus sonhos em jornadas inesquecíveis, guiando-o a destinos fascinantes.</p>
-        <span class="font-1-d cor-12"><img src="./svgs/localizacao-icon.svg" alt="icon localização">Tubarão - SC</span>
-      </div>
-      <div class="imagem-header">
-        <img src="./imgs-leve/foto-header.jpg" alt="Mulher ruiva nas montanhas">
-      </div>
-    </div>
   </header>
-  <section class="diferenciais contain">
-    <p class="font-1-f cor-8" id="span-diferencial">NOSSOS DIFERENCIAIS</p>
-
-
-    <div class="grid-seta">
-      <h1 class="font-1-b cor-11 ">Porque viajar conosco?</h1>
-      <div><img src="./svgs/seta-direita.svg" alt=""></div>
-    </div>
-
-
-    <div class="diferenciais-grid">
-      <div class="diferenciais-bloco ">
-        <img class="img-diferenciais" src="./imgs-leve/clientes-atendidos.jpg" alt="mulheres em uma piscina">
-        <img class="icon-diferenciais" src="./svgs/clientes.svg" alt="a">
-        <p class="font-1-e cor-2">+2000 clientes atendidos</p>
-      </div>
-      <div class="diferenciais-bloco">
-        <img src="./imgs-leve/parceria-hoteis.jpg" alt="mulheres em uma piscina">
-        <img class="icon-diferenciais" src="./svgs/aperto-maos.svg" alt="a">
-        <p class="font-1-e cor-2">parceria com diversos resorts e hotéis</p>
-      </div>
-      <div class="diferenciais-bloco">
-        <img src="./imgs-leve/anos-experiencia.jpg" alt="mulheres em uma piscina">
-        <img class="icon-diferenciais" src="./svgs/tempo-trabalho.svg" alt="a">
-        <p class="font-1-e cor-2">+15 anos de experiência na área</p>
-      </div>
-      <div class="diferenciais-bloco">
-        <img src="./imgs-leve/aprovação-clientes.jpg" alt="mulheres em uma piscina">
-        <img class="icon-diferenciais" src="./svgs/aprovação.svg" alt="a">
-        <p class="font-1-e cor-2">98% de aprovação de clientes</p>
-      </div>
-
-    </div>
-  </section>
-  <section class="destinos-populares contain">
-    <div class="titulo-populares">
-      <span class="font-1-f cor-8">MAIS BUSCADOS</span>
-
-
-      <h1 class="font-1-b cor-11 ">Destinos populares</h1>
-
-
-
-    </div>
-    <div class="lista-populares">
-      <div class="destinos-bloco">
-        <div class="avaliacao">
-          <img src="./svgs/estrela.svg" alt="estrela">
-          <span class="font-1-f">5.0</span>
-        </div>
-        <a href="/"> <img src="./imgs-leve/torre-eiffel.jpg" alt="torre eiffel"></a>
-
-        <div class="local">
-          <span class="font-1-e cor-0">Torre Eiffel</span>
-          <span class="font-1-g cor-0 lugar"><img src="./svgs/localizacao-white.svg" alt="localizacao">Paris, França</span>
-        </div>
-      </div>
-      <div class="destinos-bloco">
-        <div class="avaliacao">
-          <img src="./svgs/estrela.svg" alt="estrela">
-          <span class="font-1-f">4.8</span>
-        </div>
-        <a href="/"> <img src="./imgs-leve/cristo-redentor.jpg" alt="cristo redentor"></a>
-
-        <div class="local">
-          <span class="font-1-e cor-0">Cristo Redentor</span>
-          <span class="font-1-g cor-0 lugar"><img src="./svgs/localizacao-white.svg" alt="localizacao">Rio de Janeiro,Brasil</span>
-        </div>
-      </div>
-      <div class="destinos-bloco">
-        <div class="avaliacao">
-          <img src="./svgs/estrela.svg" alt="estrela">
-          <span class="font-1-f">4.4</span>
-        </div>
-        <a href="/"> <img src="./imgs-leve/coliseu.jpg" alt="coliseu">
-          <div class="local">
-        </a>
-
-        <span class="font-1-e cor-0">Coliseu</span>
-        <span class="font-1-g cor-0 lugar"><img src="./svgs/localizacao-white.svg" alt="localizacao">Roma,Itália</span>
-      </div>
-    </div>
-    <div class="destinos-bloco">
-      <div class="avaliacao">
-        <img src="./svgs/estrela.svg" alt="estrela">
-        <span class="font-1-f">4.9</span>
-      </div>
-      <a href="/"> <img src="./imgs-leve/machu-picchu.jpg" alt="machi-picchu "></a>
-
-      <div class="local">
-        <span class="font-1-e cor-0">Machu Piccu</span>
-        <span class="font-1-g cor-0 lugar"><img src="./svgs/localizacao-white.svg" alt="localizacao">Peru</span>
-      </div>
-    </div>
-    <div class="destinos-bloco">
-      <div class="avaliacao">
-        <img src="./svgs/estrela.svg" alt="estrela">
-        <span class="font-1-f">4.3</span>
-      </div>
-      <a href="/"> <img src="./imgs-leve/opera-house.jpg" alt="opera house"></a>
-
-      <div class="local">
-        <span class="font-1-e cor-0">Opera House</span>
-        <span class="font-1-g cor-0 lugar"><img src="./svgs/localizacao-white.svg" alt="localizacao">Sydney, Austrália</span>
-      </div>
-    </div>
-    <div class="destinos-bloco">
-      <div class="avaliacao">
-        <img src="./svgs/estrela.svg" alt="estrela">
-        <span class="font-1-f">4.1</span>
-      </div>
-      <a href="/"> <img src="./imgs-leve/grande-muralha.jpg" alt="Muralha China"></a>
-
-      <div class="local">
-        <span class="font-1-e cor-0">Grande Muralha</span>
-        <span class="font-1-g cor-0 lugar"><img src="./svgs/localizacao-white.svg" alt="localizacao">China</span>
-      </div>
-    </div>
-    </div>
-    <a href="destinos.html" class="font-1-e azul todos-populares">Ver todos ➞</a>
-  </section>
-  <article class="opinioes-cliente container">
-    <span class="font-1-f cor-8">OPINIÕES DE NOSSOS CLIENTES</span>
-    <h1 class="font-1-b cor-11 ">Quem nos contrata, aprova</h1>
-    <div class="cliente-grid">
-      <div class="bloco-cliente">
-        <div class="identificacao-cliente">
-          <img src="./imgs-leve/jean-victor.png" alt="foto-jean">
-          <p class="font-1-c cor-11">Jean Victor</p>
-
-        </div>
-        <div class="texto-cliente">
-          <h3 class="font-1-c cor-12">Uma viagem incrível</h3>
-
-          <p class="font-2-a cor-10">Nossa experiência com a agência foi incrível! Desde o planejamento até o retorno, cada detalhe foi cuidadosamente organizado. Os destinos sugeridos eram deslumbrantes, e a equipe sempre esteve disponível para nos ajudar. Recomendo a todos que desejam uma viagem inesquecível!</p>
-        </div>
-      </div>
-      <div class="bloco-cliente">
-        <div class="identificacao-cliente">
-          <img src="./imgs-leve/heitor.png" alt="foto-heitor">
-          <p class="font-1-c cor-11">Heitor</p>
-        </div>
-        <div class="texto-cliente">
-          <h3 class="font-1-c cor-12">Inesquecível</h3>
-          <p class="font-2-a cor-10">Fazer a escolha de viajar com esta agência foi, sem dúvida, a melhor decisão que poderíamos ter tomado. O atendimento personalizado oferecido pela equipe fez toda a diferença em cada etapa da nossa jornada. Desde o primeiro contato, percebemos que a nossa experiência era a prioridade máxima deles. Cada detalhe, desde o planejamento até o retorno, foi perfeitamente coordenado.</p>
-        </div>
-      </div>
-      <div class="bloco-cliente">
-        <div class="identificacao-cliente">
-          <img src="./imgs-leve/gilmar-junior.png" alt="foto-gilmar">
-          <p class="font-1-c cor-11">Gilmar Júnior</p>
-        </div>
-        <div class="texto-cliente">
-          <h3 class="font-1-c cor-12">Só agradecimentos</h3>
-          <p class="font-2-a cor-10">Minha viagem dos sonhos se tornou realidade graças a esta agência. Desde o primeiro contato, senti que minha experiência era a prioridade deles. Os destinos sugeridos foram perfeitos, e a atenção aos detalhes foi surpreendente. Recomendo a todos que buscam uma viagem personalizada e inesquecível.</p>
-        </div>
-      </div>
-    </div>
-  </article>
-  <footer class="footer">
-    <div class="container">
-      <div class="frase-footer">
-        <img src="./svgs/logo-white.svg" alt="logo">
-        <p class="font-1-d cor-6">Transformamos sonhos em viagens inesquecíveis. Descubra o mundo conosco. </p>
-      </div>
-      <div class="links-footer">
-        <h4 class="font-1-c cor-2">Links úteis</h4>
-        <ul>
-          <li class="font-1-d cor-6"><a href="/">home</a></li>
-          <li class="font-1-d cor-6"><a href="/">destinos</a></li>
-          <li class="font-1-d cor-6"><a href="/">sobre</a></li>
-          <li class="font-1-d cor-6"><a href="/">faq</a></li>
-          <li class="font-1-d cor-6"><a href="/">contato</a></li>
-        </ul>
-      </div>
-      <div class="contato-footer">
-        <h4 class="font-1-c cor-2">Contato</h4>
-        <ul>
-          <li class="font-1-d cor-6"><img src="./svgs/telefone-icon.svg" alt="telefone">+ 99 88888-7777</li>
-          <li class="font-1-d cor-6"><img src="./svgs/email-icon.svg" alt="emial">codenand@gmail.com</li>
-          <li class="font-1-d cor-6"><img src="./svgs/localizacao-cinza.svg" alt="local">Tubarão-SC
-          </li>
-        </ul>
-      </div>
-    </div>
-
-
-  </footer>
-  <div class="rodape">
-    <div class="container">
-      <p class="font-1-d cor-2">Heitor.Todos os direitos reservados</p>
-      <p class="font-1-d cor-2">Criado por Codenand</p>
-    </div>
-  </div>
-
   <script type="module" src="script.js"></script>
 </body>
 

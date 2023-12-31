@@ -2,17 +2,25 @@ export default function initMenuMobile() {
   document.addEventListener("DOMContentLoaded", function () {
     var button = document.querySelector('[data-menu="button"]');
     var menu = document.querySelector("#menu");
+    var img = document.querySelector('[data-menu="button"] img');
 
     menu.addEventListener("click", function (event) {
       if (event.target.tagName === "A") {
         button.classList.remove("active");
         menu.classList.remove("active");
+        img.setAttribute("src", "./svg/menu-icon.svg");
       }
     });
 
     button.addEventListener("click", function () {
       this.classList.toggle("active");
       menu.classList.toggle("active");
+
+      if (menu.classList.contains("active")) {
+        img.setAttribute("src", "./svg/menu-x.svg");
+      } else {
+        img.setAttribute("src", "./svg/menu-icon.svg");
+      }
     });
 
     document.addEventListener("click", function (event) {
@@ -21,6 +29,8 @@ export default function initMenuMobile() {
       if (!isClickInside) {
         button.classList.remove("active");
         menu.classList.remove("active");
+
+        img.setAttribute("src", "./svg/menu-icon.svg");
       }
     });
   });
