@@ -3,6 +3,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 40px;
+  padding-bottom: 100px;
 }
 .mundo-home {
   display: flex;
@@ -20,6 +21,7 @@
     padding-top: 130px;
     grid-template-columns: 1fr;
     gap: 20px;
+    padding-bottom: 50px;
   }
   .mundo-home {
     margin-bottom: 12px;

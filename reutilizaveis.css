@@ -1,8 +1,14 @@
 .container {
-  box-sizing: border-box;
   max-width: 1440px;
   padding-left: 60px;
   padding-right: 60px;
+  box-sizing: border-box;
+  margin-left: auto;
+  margin-right: auto;
+}
+.contain {
+  max-width: 1440px;
+  box-sizing: border-box;
   margin-left: auto;
   margin-right: auto;
 }
