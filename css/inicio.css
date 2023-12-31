@@ -1,0 +1,33 @@
+.inicio-home {
+  padding-top: 180px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+}
+.mundo-home {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+.inicio-conteudo-home h1 {
+  margin-bottom: 16px;
+}
+.inicio-conteudo-home .botao-2 {
+  margin-top: 20px;
+}
+@media (max-width: 1000px) {
+  .inicio-home {
+    padding-top: 130px;
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  .mundo-home {
+    margin-bottom: 12px;
+  }
+  .inicio-conteudo-home h1 {
+    margin-bottom: 12px;
+  }
+  .inicio-conteudo-home .botao-2 {
+    margin-top: 12px;
+  }
+}

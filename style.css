@@ -2,5 +2,7 @@
 @import url(./reutilizaveis.css);
 @import url(./tipografiaecor.css);
 
-@import url(./css/header.css);
 @import url(./css/menu-mobile.css);
+
+@import url(./css/header.css);
+@import url(./css/inicio.css);

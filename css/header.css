@@ -1,3 +1,8 @@
+header {
+  position: fixed;
+  width: 100%;
+  background-color: var(--branco-2);
+}
 .nav {
   display: flex;
   justify-content: space-between;
@@ -10,6 +15,9 @@
   display: inline-block;
   padding-right: 60px;
   position: relative;
+}
+.nav li:hover {
+  color: var(--cinza-1);
 }
 .nav li::after {
   content: "";
