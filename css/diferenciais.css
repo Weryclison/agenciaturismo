@@ -1,9 +1,10 @@
 .diferenciais-home-padding {
   padding-left: 60px;
   display: flex;
+  justify-content: space-between;
+  gap: 40px;
   overflow-x: auto;
   white-space: wrap;
-  gap: 40px;
 }
 .diferenciais-home h3 {
   margin-bottom: 4px;

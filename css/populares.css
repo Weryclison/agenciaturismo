@@ -41,6 +41,7 @@
   margin-top: 20px;
   display: flex;
   justify-content: center;
+  margin-bottom: 100px;
 }
 
 @media (max-width: 750px) {
@@ -60,6 +61,7 @@
   }
   .botao-wrapper {
     justify-content: left;
+    margin-bottom: 50px;
   }
   .avaliacao {
     top: 8px;
