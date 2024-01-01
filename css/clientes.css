@@ -9,6 +9,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 40px;
+  margin-bottom: 50px;
 }
 .caixa-cliente {
   display: grid;
@@ -38,8 +39,10 @@
 }
 @media (max-width: 750px) {
   .clientes-home-titulos {
-    text-align: left;
     margin-bottom: 50px;
+  }
+  .clientes-grid {
+    margin-bottom: 25px;
   }
 }
 @media (max-width: 600px) {
