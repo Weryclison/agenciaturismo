@@ -1,0 +1,66 @@
+.franca-inicio {
+  background-image: url(../img/bg-frança.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.franca-inicio h1 {
+  text-align: center;
+  padding-top: 270px;
+  padding-bottom: 270px;
+  margin-bottom: 100px;
+}
+@media (max-width: 750px) {
+  .franca-inicio h1 {
+    padding-bottom: 140px;
+    padding-top: 230px;
+    margin-bottom: 50px;
+  }
+}
+.titulo-franca {
+  margin-bottom: 60px;
+}
+.titulo-franca h2 {
+  margin-bottom: 4px;
+}
+.franca-grid-informacoes {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.franca-grid-imagem {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  margin-top: 40px;
+  margin-bottom: 100px;
+}
+.franca-informacoes-gerais {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-bottom: 50px;
+}
+.contato-franca {
+  padding-left: 20px;
+}
+@media (max-width: 750px) {
+  .titulo-franca {
+    margin-bottom: 28px;
+  }
+  .franca-grid-imagem img:last-child {
+    display: none;
+  }
+  .franca-grid-imagem {
+    grid-template-columns: 1fr;
+    gap: 20px;
+    margin-bottom: 60px;
+  }
+  .franca-informacoes-gerais {
+    margin-bottom: 60pxpx;
+  }
+  .franca-grid-informacoes {
+    grid-template-columns: 1fr;
+  }
+  .contato-franca {
+    padding-left: 0px;
+    margin-bottom: 60px;
+  }
+}
