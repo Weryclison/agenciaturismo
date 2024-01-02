@@ -9,15 +9,14 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter&family=Poppins:wght@500;600;700&display=swap" rel="stylesheet">
+  <title>Destinos</title>
   <link rel="stylesheet" href="style.css">
-
-  <title>Heitor Viagens</title>
 </head>
 
 <body>
   <header>
     <nav class="nav container">
-      <a href="/"> <img src="./svg/logo.svg" alt="logo" class="logo-menu"></a>
+      <a href="/"> <img src="./svg/logo.svg" alt="logo"></a>
 
       <div class="nav-links">
         <button data-menu="button" aria-expanded="false" aria-controls="menu"><img src="./svg/menu-icon.svg" alt="menu-icon"></button>
@@ -31,60 +30,15 @@
       </div>
     </nav>
   </header>
-  <section class="inicio-home container">
-    <div class="inicio-conteudo-home">
-      <div class="mundo-home">
-        <p class="font-1-c azul-4">Explore o mundo</p>
-        <img src="./svg/mundo.svg" alt="">
-      </div>
-      <h1 class="font-1-a azul-1">Viaje, Sonhe, Descubra, Viva.</h1>
-      <p class="font-1-c cinza-2">Transformamos seus sonhos em jornadas inesquecíveis, guiando-o a destinos fascinantes.</p>
-      <a href="/" class="botao-2">Destinos populares</a>
-    </div>
-    <img src="./img/foto-header.jpg" alt="Menina loira">
+  <section class="destinos-inicio">
+    <h1 class="font-1-a branco-2">Destinos</h1>
   </section>
-  <section class="diferenciais-home contain">
-    <div class="diferenciais-home-titulos">
-      <h2 class="font-1-d cinza-2">NOSSOS DIFERENCIAIS</h2>
+  <section class="destinos-conteudo">
+    <div class="destinos-titulo">
+      <h2 class="font-1-d cinza-2">VIAGENS QUE REALIZAMOS</h2>
       <h3 class="font-1-b azul-1">Porque viajar conosco?</h3>
     </div>
-    <div class="diferenciais-home-padding">
-      <div class="caixa-diferenciais">
-        <img src="./img/clientes-atendidos.jpg" alt="">
-        <img src="./svg/clientes.svg" alt="" class="caixa-diferenciais-icon">
-        <div class="caixa-diferenciais-conteudo">
-          <p class="font-1-c branco-2">2000+ clientes atendidos</p>
-        </div>
-      </div>
-      <div class="caixa-diferenciais">
-        <img src="./img/parceria-hoteis.jpg" alt="">
-        <img src="./svg/aperto-maos.svg" alt="" class="caixa-diferenciais-icon">
-        <div class="caixa-diferenciais-conteudo">
-          <p class="font-1-c branco-2">Parceria com resorts e hotéis</p>
-        </div>
-      </div>
-      <div class="caixa-diferenciais">
-        <img src="./img/anos-experiencia.jpg" alt="">
-        <img src="./svg/clientes.svg" alt="" class="caixa-diferenciais-icon">
-        <div class="caixa-diferenciais-conteudo">
-          <p class="font-1-c branco-2">19 anos de experiência</p>
-        </div>
-      </div>
-      <div class="caixa-diferenciais">
-        <img src="./img/aprovação-clientes.jpg" alt="">
-        <img src="./svg/aprovação.svg" alt="" class="caixa-diferenciais-icon">
-        <div class="caixa-diferenciais-conteudo">
-          <p class="font-1-c branco-2">2000+ clientes atendidos</p>
-        </div>
-      </div>
-    </div>
-  </section>
-  <section class="populares-home container">
-    <div class="populares-home-titulos">
-      <h2 class="font-1-d cinza-2">MAIS BUSCADOS</h2>
-      <h3 class="font-1-b azul-1">Destinos populares</h3>
-    </div>
-    <div class="grid-caixa-local">
+    <div class="destinos-grid container">
       <div class="caixa-local">
         <div class="avaliacao">
           <img src="./svg/estrela.svg" alt="estrela">
@@ -99,8 +53,7 @@
           </div>
         </div>
       </div>
-
-      <div class="caixa-local caixa-local-home">
+      <div class="caixa-local">
         <div class="avaliacao">
           <img src="./svg/estrela.svg" alt="estrela">
           <p class="font-1-d">4.9</p>
@@ -114,8 +67,7 @@
           </div>
         </div>
       </div>
-
-      <div class="caixa-local caixa-local-home">
+      <div class="caixa-local">
         <div class="avaliacao">
           <img src="./svg/estrela.svg" alt="estrela">
           <p class="font-1-d">4.8</p>
@@ -129,39 +81,88 @@
           </div>
         </div>
       </div>
-    </div>
-    <div class="botao-wrapper">
-      <a href="/" class="botao-2">Ver todos</a>
-    </div>
-  </section>
-  <section class="clientes container">
-    <div class="clientes-home-titulos">
-      <h2 class="font-1-d cinza-2">OPINIÕES DE NOSSOS CLIENTES</h2>
-      <h3 class="font-1-b azul-1">Quem nos contrata,aprova</h3>
-    </div>
-    <div class="clientes-grid">
-      <div class="caixa-cliente">
-        <img src="./img/jean-victor.png" alt="Jean">
-        <p class="font-2-a azul-2 p1">Nossa experiência com a agência foi incrível! Desde o planejamento até o retorno, cada detalhe foi cuidadosamente organizado. </p>
-        <div class="identificacao-cliente">
-          <p class="font-1-e azul-1">Jean Victor</p>
-          <p class="font-1-e azul-3">Músico</p>
+      <div class="caixa-local">
+        <div class="avaliacao">
+          <img src="./svg/estrela.svg" alt="estrela">
+          <p class="font-1-d">4.4</p>
+        </div>
+        <img src="./img/machu-picchu.jpg" class="paris" alt="Machu piccu">
+        <div class="local">
+          <p class="font-1-c branco-1">Machu Picchu</p>
+          <div class="local-exato">
+            <img src="./svg/localizacao-icon.svg" alt="icon">
+            <p class="font-1-e branco-0">Peru</p>
+          </div>
         </div>
       </div>
-      <div class="caixa-cliente">
-        <img src="./img/heitor.png" alt="Jean">
-        <p class="font-2-a azul-2 p1">Fazer a escolha de viajar com esta agência foi a melhor decisão,sem dúvidas, que poderíamos ter tomado.Estou muito feliz. </p>
-        <div class="identificacao-cliente">
-          <p class="font-1-e azul-1">Heitor</p>
-          <p class="font-1-e azul-3">Fisiculturista</p>
+      <div class="caixa-local">
+        <div class="avaliacao">
+          <img src="./svg/estrela.svg" alt="estrela">
+          <p class="font-1-d">4.3</p>
+        </div>
+        <img src="./img/sagrada-familia.jpg" alt="Sagrada familia">
+        <div class="local">
+          <p class="font-1-c branco-1">Sagrada Família</p>
+          <div class="local-exato">
+            <img src="./svg/localizacao-icon.svg" alt="icon">
+            <p class="font-1-e branco-0">Barcelona, Espanha</p>
+          </div>
         </div>
       </div>
-      <div class="caixa-cliente">
-        <img src="./img/gilmar-junior.png" alt="Jean">
-        <p class="font-2-a azul-2 p1">Minha viagem dos sonhos se tornou realidade graças a esta agência. Desde o primeiro contato, percebi como a empresa se importa com nós.</p>
-        <div class="identificacao-cliente">
-          <p class="font-1-e azul-1">Júnior</p>
-          <p class="font-1-e  azul-3">Designer</p>
+      <div class="caixa-local">
+        <div class="avaliacao">
+          <img src="./svg/estrela.svg" alt="estrela">
+          <p class="font-1-d">4.8</p>
+        </div>
+        <img src="./img/grande-muralha.jpg" alt="grande muralha">
+        <div class="local">
+          <p class="font-1-c branco-1">Coliseu</p>
+          <div class="local-exato">
+            <img src="./svg/localizacao-icon.svg" alt="icon">
+            <p class="font-1-e branco-0">China</p>
+          </div>
+        </div>
+      </div>
+      <div class="caixa-local">
+        <div class="avaliacao">
+          <img src="./svg/estrela.svg" alt="estrela">
+          <p class="font-1-d">4.9</p>
+        </div>
+        <img src="./img/opera-house.jpg" class="paris" alt="opera house">
+        <div class="local">
+          <p class="font-1-c branco-1">Opera House</p>
+          <div class="local-exato">
+            <img src="./svg/localizacao-icon.svg" alt="icon">
+            <p class="font-1-e branco-0">Sydney, Austrália</p>
+          </div>
+        </div>
+      </div>
+      <div class="caixa-local">
+        <div class="avaliacao">
+          <img src="./svg/estrela.svg" alt="estrela">
+          <p class="font-1-d">4.9</p>
+        </div>
+        <img src="./img/taj-mahal.jpg" alt="taj mahal">
+        <div class="local">
+          <p class="font-1-c branco-1">Taj Mahal</p>
+          <div class="local-exato">
+            <img src="./svg/localizacao-icon.svg" alt="icon">
+            <p class="font-1-e branco-0">índia</p>
+          </div>
+        </div>
+      </div>
+      <div class="caixa-local">
+        <div class="avaliacao">
+          <img src="./svg/estrela.svg" alt="estrela">
+          <p class="font-1-d">4.8</p>
+        </div>
+        <img src="./img/monte-rushmore.jpg" alt="rushmore">
+        <div class="local">
+          <p class="font-1-c branco-1">Monte Rushmore</p>
+          <div class="local-exato">
+            <img src="./svg/localizacao-icon.svg" alt="icon">
+            <p class="font-1-e branco-0">Estados Unidos</p>
+          </div>
         </div>
       </div>
     </div>

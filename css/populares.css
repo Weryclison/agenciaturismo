@@ -3,7 +3,7 @@
   text-align: center;
   margin-bottom: 60px;
 }
-.populares-home-titulos h3 {
+.populares-home-titulos h2 {
   margin-bottom: 4px;
 }
 
@@ -43,6 +43,12 @@
   justify-content: center;
   margin-bottom: 100px;
 }
+@media (max-width: 940px) {
+  .grid-caixa-local {
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+  }
+}
 
 @media (max-width: 750px) {
   .grid-caixa-local {
@@ -53,7 +59,7 @@
     text-align: left;
     margin-bottom: 40px;
   }
-  .caixa-local {
+  .caixa-local .caixa-local-home {
     display: none;
   }
   .caixa-local:first-child {

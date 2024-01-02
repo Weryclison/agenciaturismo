@@ -5,7 +5,7 @@
   padding-top: 50px;
   gap: 100px;
 }
-.footer h4 {
+.footer h3 {
   margin-bottom: 40px;
 }
 .logo-footer {
@@ -25,17 +25,23 @@
   justify-content: space-between;
   padding-bottom: 40px;
 }
-@media (max-width: 750px) {
+@media (max-width: 900px) {
   .footer {
     grid-template-columns: 1fr;
     padding-top: 25px;
     gap: 40px;
   }
-  .footer h4 {
+  .footer h3 {
     margin-bottom: 20px;
   }
   .logo-footer {
     margin-bottom: 40px;
+  }
+  .footer-links li {
+    padding-bottom: 20px;
+  }
+  .footer-contato li a {
+    padding-bottom: 20px;
   }
   .rodape {
     display: block;

@@ -45,4 +45,7 @@
     content: "";
     display: none;
   }
+  .logo-menu {
+    max-width: 50vw;
+  }
 }

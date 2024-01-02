@@ -1,0 +1,42 @@
+.destinos-inicio {
+  background-image: url(../img/bg-destinos.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.destinos-inicio h1 {
+  text-align: center;
+  padding: 270px;
+  margin-bottom: 100px;
+}
+.destinos-titulo {
+  text-align: center;
+  margin-bottom: 60px;
+}
+.destinos-titulo h2 {
+  margin-bottom: 4px;
+}
+.destinos-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 40px;
+  margin-bottom: 50px;
+  justify-items: center;
+}
+@media (max-width: 950px) {
+  .destinos-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+  .destinos-grid .caixa-local:last-child {
+    display: none;
+  }
+}
+@media (max-width: 750px) {
+  .destinos-grid {
+    grid-template-columns: 1fr;
+  }
+  .destinos-inicio h1 {
+    padding: 140px;
+    padding-top: 230px;
+    margin-bottom: 50px;
+  }
+}
