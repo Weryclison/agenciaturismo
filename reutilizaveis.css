@@ -62,3 +62,9 @@
     padding-right: 35px;
   }
 }
+@media (max-width: 250px) {
+  .botao,
+  .botao-2 {
+    padding: 2px 4px;
+  }
+}

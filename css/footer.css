@@ -52,3 +52,11 @@
     text-align: center;
   }
 }
+@media (max-width: 290px) {
+  .footer-contato li a img {
+    display: none;
+  }
+  .rodape p {
+    text-align: left;
+  }
+}

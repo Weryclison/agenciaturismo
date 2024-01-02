@@ -5,7 +5,8 @@
 }
 .destinos-inicio h1 {
   text-align: center;
-  padding: 270px;
+  padding-top: 270px;
+  padding-bottom: 270px;
   margin-bottom: 100px;
 }
 .destinos-titulo {
@@ -35,7 +36,7 @@
     grid-template-columns: 1fr;
   }
   .destinos-inicio h1 {
-    padding: 140px;
+    padding-bottom: 140px;
     padding-top: 230px;
     margin-bottom: 50px;
   }
