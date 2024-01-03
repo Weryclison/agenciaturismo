@@ -1,0 +1,74 @@
+.faq-inicio {
+  background-image: url(../img/bg-perguntas.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.faq-inicio h1 {
+  text-align: center;
+  padding-top: 270px;
+  padding-bottom: 270px;
+  margin-bottom: 100px;
+}
+@media (max-width: 750px) {
+  .faq-inicio h1 {
+    padding-bottom: 140px;
+    padding-top: 230px;
+    margin-bottom: 50px;
+  }
+}
+.perguntas {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 95px;
+  margin-bottom: 50px;
+}
+.perguntas img {
+  max-width: 360px;
+}
+dl {
+  grid-column: 1/9;
+}
+dt {
+  padding-top: 20px;
+  padding-bottom: 16px;
+  border-top: 2px solid var(--branco-0);
+  padding-right: 50px;
+  position: relative;
+  cursor: pointer;
+}
+dt::after {
+  content: "";
+  position: absolute;
+  background-image: url(../svg/flechinha-cima.svg);
+  width: 17px;
+  height: 17px;
+  top: 28px;
+  right: 0px;
+}
+dt:first-child:after {
+  top: 8px;
+}
+dt:first-child {
+  border-top: 0px;
+  padding-top: 0px;
+}
+dd {
+  padding-bottom: 28px;
+  display: none;
+}
+dd.ativo {
+  display: block;
+}
+
+@media (max-width: 750px) {
+  .perguntas {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+  dl {
+    grid-column: 1;
+  }
+  dt {
+    padding-right: 30px;
+  }
+}

@@ -19,7 +19,7 @@
   align-items: center;
   flex-wrap: wrap;
   position: relative;
-  max-width: 255px;
+  max-width: 260px;
   margin-top: 60px;
   flex: 0 0 auto;
 }
@@ -61,5 +61,17 @@
   }
   .caixa-diferenciais:last-child {
     margin-right: 35px;
+  }
+}
+@media (max-width: 281px) {
+  .diferenciais-home-padding {
+    padding-left: 10px;
+  }
+  .diferenciais-home h2,
+  .diferenciais-home h3 {
+    padding-left: 10px;
+  }
+  .caixa-diferenciais:last-child {
+    margin-right: 10px;
   }
 }

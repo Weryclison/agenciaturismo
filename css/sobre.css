@@ -96,4 +96,7 @@
   .sobre-experiencia img {
     order: 2;
   }
+  .sobre-experiencia-conteudo-numeros-caixa p:last-child {
+    font-size: 12px;
+  }
 }
