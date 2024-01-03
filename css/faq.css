@@ -44,7 +44,13 @@ dt::after {
   height: 17px;
   top: 28px;
   right: 0px;
+  transition: transform 0.2s;
 }
+
+dt.ativo::after {
+  transform: rotate(180deg);
+}
+
 dt:first-child:after {
   top: 8px;
 }
@@ -64,6 +70,7 @@ dd.ativo {
   .perguntas {
     grid-template-columns: 1fr;
     gap: 40px;
+    padding-right: 35px;
   }
   dl {
     grid-column: 1;
