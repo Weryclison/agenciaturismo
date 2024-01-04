@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Descubra o mundo com a nossa agência de viagens! Oferecemos pacotes personalizados, atendimento excepcional e experiências inesquecíveis. Vamos transformar seus sonhos de viagem em realidade.">
+  <meta name="keywords" content="Agência de Viagens, Pacotes de Viagem, Viagens Personalizadas, Atendimento Excepcional, Experiências Inesquecíveis">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter&family=Poppins:wght@500;600;700&display=swap" rel="stylesheet">
+  <title>França</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <nav class="nav container">
+      <a href="index.html"> <img src="./svg/logo.svg" alt="logo" class="logo-menu"></a>
+
+      <div class="nav-links">
+        <button data-menu="button" aria-expanded="false" aria-controls="menu"><img src="./svg/menu-icon.svg" alt="menu-icon"></button>
+        <ul data-menu="list" id="menu">
+          <li class="font-1-c azul-1"><a href="index.html">home</a></li>
+          <li class="font-1-c azul-1"><a href="destinos.html">destinos</a></li>
+          <li class="font-1-c azul-1"><a href="sobre.html">sobre</a></li>
+          <li class="font-1-c azul-1"><a href="faq.html">faq</a></li>
+        </ul>
+        <a href="contato.html" class="botao">Contato</a>
+      </div>
+    </nav>
+  </header>
+  <section class="contato-inicio">
+    <h1 class="font-1-a branco-2">Sobre nós</h1>
+  </section>
+
+  <section class="contato container">
+    <div class="contato-informacoes">
+      <ul>
+        <li class="font-1-c branco-0"><a href="/"><img src="svg/telefone.svg" alt="">+48 99656 - 1838</a></li>
+        <li class="font-1-c branco-0"><a href="/"><img src="svg/gmail.svg" alt="">heit@gmail.com</a></li>
+        <li class="font-1-c branco-0"><a href="/"><img src="svg/localizacao.svg" alt="">Treze de Maio,SC</a></li>
+      </ul>
+    </div>
+    <div class="fale-conosco" id="contato">
+      <form action="./index.html">
+        <div>
+          <label class="font-1-c cinza-1" for="nome">Nome</label>
+          <input class="font-2-a cinza-2" type="text" id="nome" name="nome" placeholder="Seu nome">
+        </div>
+        <div>
+          <label class="font-1-c cinza-1" for="telefone">Telefone</label>
+          <input class="font-2-a cinza-2" type="text" id="telefone" name="telefone" placeholder="(21) 99999-9999">
+        </div>
+        <div class="email">
+          <label class="font-1-c cinza-1" for="email">Email</label>
+          <input class="font-2-a cinza-2" type="email" id="email" name="email" placeholder="Email">
+        </div>
+
+
+        <div class="mensagem">
+          <label class="font-1-c cinza-1" for="mensagem">Mensagem</label>
+          <textarea class="font-2-a cinza-2" rows="5" id="mensagem" name="mensagem" placeholder="Escreva uma mensagem..."></textarea>
+        </div>
+        <button class="botao-2">Enviar mensagem</button>
+
+      </form>
+
+    </div>
+
+  </section>
+
+
+
+
+
+  <section class="footer container">
+    <div>
+      <img src="./svg/logo-branco.svg" alt="logo" class="logo-footer">
+      <p class="font-1-c branco-0">Transformamos sonhos em viagens. Descubra o mundo.</p>
+    </div>
+    <div class="footer-links">
+      <h3 class="font-1-c branco-2">Links úteis</h3>
+      <ul>
+        <li class="font-1-c branco-0"><a href="/">home</a></li>
+        <li class="font-1-c branco-0"><a href="/">destinos</a></li>
+        <li class="font-1-c branco-0"><a href="/">sobre</a></li>
+        <li class="font-1-c branco-0"><a href="/">faq</a></li>
+        <li class="font-1-c branco-0"><a href="/">contato</a></li>
+      </ul>
+    </div>
+    <div class="footer-contato">
+      <h3 class="font-1-c branco-2">Contato</h3>
+      <ul>
+        <li class="font-1-c branco-0"><a href="/"><img src="svg/telefone.svg" alt="">+48 99656 - 1838</a></li>
+        <li class="font-1-c branco-0"><a href="/"><img src="svg/gmail.svg" alt="">heitorviag@gmail.com</a></li>
+        <li class="font-1-c branco-0"><a href="/"><img src="svg/localizacao.svg" alt="">Treze de Maio,SC</a></li>
+      </ul>
+    </div>
+    <div class="rodape">
+      <p class="font-1-c branco-0">Heitor. Todos os direitos reservados</p>
+      <p class="font-1-c branco-0">Site por Codenand</p>
+    </div>
+  </section>
+  <script type="module" src="script.js"></script>
+</body>
+
+</html>
