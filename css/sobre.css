@@ -11,8 +11,7 @@
 }
 @media (max-width: 750px) {
   .sobre-inicio h1 {
-    padding-bottom: 140px;
-    padding-top: 230px;
+    padding: 140px 0px;
     margin-bottom: 50px;
   }
 }
