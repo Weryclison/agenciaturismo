@@ -18,7 +18,7 @@
 }
 @media (max-width: 1000px) {
   .inicio-home {
-    padding-top: 130px;
+    padding-top: 50px;
     grid-template-columns: 1fr;
     gap: 20px;
     padding-bottom: 50px;

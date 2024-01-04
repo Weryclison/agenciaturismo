@@ -1,66 +1,69 @@
 .diferenciais-home-padding {
-  padding-left: 60px;
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
   gap: 40px;
-  overflow-x: auto;
-  white-space: wrap;
 }
 .diferenciais-home h3 {
   margin-bottom: 4px;
+  margin-bottom: 60px;
 }
 .diferenciais-home h2,
 .diferenciais-home h3 {
   text-align: center;
 }
 .caixa-diferenciais {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-rows: auto auto auto;
   position: relative;
-  max-width: 260px;
-  margin-top: 60px;
-  flex: 0 0 auto;
+  background-color: var(--azul-1);
 }
+
 .caixa-diferenciais-conteudo {
   background-color: var(--azul-1);
   text-align: center;
-  width: 100%;
 }
 
 .caixa-diferenciais-conteudo p {
-  padding: 60px 20px 20px 20px;
+  padding: 10px 20px;
 }
 .caixa-diferenciais-icon {
   background-color: var(--branco-2);
   padding: 14px;
   border-radius: 50%;
   border: 2px solid var(--azul-1);
-  position: absolute;
-  margin-bottom: calc(-50% + 20px);
+  justify-self: center;
+  margin-top: 12px;
 }
-.caixa-diferenciais:last-child {
-  margin-right: 60px;
-}
-@media (max-width: 750px) {
+
+@media (max-width: 1160px) {
   .diferenciais-home-padding {
-    padding-left: 35px;
+    grid-template-columns: 1fr 1fr;
+  }
+  .caixa-diferenciais-conteudo {
+    min-height: 110px;
+  }
+  .caixa-diferenciais-conteudo p {
+    padding: 20px 20px 20px 20px;
+  }
+}
+@media (max-width: 650px) {
+  .diferenciais-home-padding {
     gap: 20px;
+    grid-template-columns: 1fr;
   }
   .diferenciais-home h2,
   .diferenciais-home h3 {
     text-align: left;
-    padding-left: 35px;
   }
   .caixa-diferenciais {
     margin-top: 40px;
   }
+  .caixa-diferenciais-conteudo {
+    min-height: 0px;
+  }
   .caixa-diferenciais-conteudo p {
     margin-top: 20px;
-  }
-  .caixa-diferenciais:last-child {
-    margin-right: 35px;
+    padding: 12px 40px;
   }
 }
 @media (max-width: 281px) {
@@ -71,7 +74,8 @@
   .diferenciais-home h3 {
     padding-left: 10px;
   }
-  .caixa-diferenciais:last-child {
-    margin-right: 10px;
+  .caixa-diferenciais-conteudo p {
+    margin-top: 20px;
+    padding: 20px 0px;
   }
 }
