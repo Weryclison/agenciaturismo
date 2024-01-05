@@ -33,6 +33,7 @@
   #menu li {
     color: var(--branco-0);
     padding-top: 20px;
+    padding-bottom: 20px;
     padding-right: 32px;
   }
   #menu.active {
