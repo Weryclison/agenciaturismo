@@ -21,6 +21,7 @@
 .caixa-diferenciais-conteudo {
   background-color: var(--azul-1);
   text-align: center;
+  box-shadow: 0 4px 4px rgba(71, 98, 120, 0.2);
 }
 
 .caixa-diferenciais-conteudo p {
@@ -48,7 +49,6 @@
 }
 @media (max-width: 650px) {
   .diferenciais-home-padding {
-    gap: 20px;
     grid-template-columns: 1fr;
   }
   .diferenciais-home h3 {

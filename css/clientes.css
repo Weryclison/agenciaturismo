@@ -14,9 +14,9 @@
 .caixa-cliente {
   display: grid;
   grid-template-rows: auto auto auto;
-
   background-color: var(--branco-1);
   text-align: center;
+  box-shadow: 0 4px 4px rgba(71, 98, 120, 0.2);
 }
 .caixa-cliente img {
   padding-top: 20px;
