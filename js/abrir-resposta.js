@@ -1,7 +1,5 @@
 export default function perguntas() {
   const perguntaLista = document.querySelectorAll("dl dt");
-  perguntaLista[0].classList.add("ativo");
-  perguntaLista[0].nextElementSibling.classList.add("ativo");
 
   function esconder() {
     this.classList.toggle("ativo");

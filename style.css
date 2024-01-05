@@ -1,6 +1,6 @@
-@import url(./global.css);
-@import url(./reutilizaveis.css);
-@import url(./tipografiaecor.css);
+@import url(./css/global.css);
+@import url(./css/reutilizaveis.css);
+@import url(./css/tipografiaecor.css);
 
 @import url(./css/menu-mobile.css);
 
